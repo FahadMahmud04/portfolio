@@ -9,19 +9,21 @@ body {
 }
 section {
   height: 500px;
+margin-top: 10px;
+margin-bottom: 80px;
   /* border: 1px,solid;*/
 }
 .top-banner {
-  background-image: url("images/top-banner.png");
+  background-image: url('../images/top-banner.png');
   background-repeat: no-repeat;
 }
 .middle-banner {
-  background-image: url("images/dream-bg.png");
+  background-image: url("../images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
 .experience-area {
-  background-image: url("images/exp-bg.png");
+  background-image: url("../images/exp-bg.png");
   background-repeat: no-repeat;
 }
 .half-width {
@@ -32,9 +34,11 @@ section {
   padding-top: 10px;
   padding-bottom: 30px;
   margin-top: 10px;
+  
 }
 .half-width img {
-  width: 100%;
+  max-height: 500px;
+  max-width: 100%;
 }
 .link-button {
   text-decoration: none;
@@ -107,4 +111,5 @@ h5 {
   background-color: lightgray;
   height: 5%;
   box-shadow: 2px 2px 15px dimgray;
+
 }

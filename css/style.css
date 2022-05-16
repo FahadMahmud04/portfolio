@@ -9,12 +9,12 @@ body {
 }
 section {
   height: 500px;
-margin-top: 10px;
-margin-bottom: 80px;
+  margin-top: 10px;
+  margin-bottom: 80px;
   /* border: 1px,solid;*/
 }
 .top-banner {
-  background-image: url('../images/top-banner.png');
+  background-image: url("../images/top-banner.png");
   background-repeat: no-repeat;
 }
 .middle-banner {
@@ -34,7 +34,6 @@ margin-bottom: 80px;
   padding-top: 10px;
   padding-bottom: 30px;
   margin-top: 10px;
-  
 }
 .half-width img {
   max-height: 500px;
@@ -94,20 +93,14 @@ h5 {
   border-image-slice: 1;
   float: left;
 }
-.experience-area h2{
- padding: 10px,10px;
+.experience-area h2 {
+  padding: 10px, 10px;
 }
 
-.footer-div h6 {
-  display: inline;
-  padding-top: 80px;
-}
 .footer-div {
-  color: black;
+  color: rgb(58, 56, 56);
   text-align: center;
   margin: 20px;
-  background-color: lightgray;
-  height: 5%;
-  box-shadow: 2px 2px 15px dimgray;
-
+  font-size: 15px;
+  height: 2%;
 }
